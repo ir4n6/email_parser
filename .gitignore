@@ -1,0 +1,2 @@
+test_emails/*
+!test_emails/README.md
