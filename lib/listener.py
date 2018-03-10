@@ -10,7 +10,7 @@ def hello_world():
 def upload_file():
     if request.method == 'POST':
         f = request.files['files']
-        f.save('/Users/paul/bin/__Github_Enabled__/ir4n6/email_parser/newTest.txt')
+        f.save('newTest.txt')
         return '200'
     else:
         return 'Upload Page'
